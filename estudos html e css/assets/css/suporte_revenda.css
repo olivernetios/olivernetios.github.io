@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    margin-bottom: 10%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    background-size: cover;
+    align-items: left;
+    display: flex;
+    margin-top: -7%;
+    margin-bottom: -3%;
+    margin-left: -10%;
+    margin-right: 10%;
+    width: 15%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-whatsapp {
+    position: fixed;
+    opacity: .9;
+    bottom: 15px;
+    right: 15px;
+    background-color: green;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 1px #0d630d63;
+    transition: 1s;
+
+
+}
+
+.button-whatsapp img {
+    border-radius: 100%;
+}
+
+header {
+    background-color: gold;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: royalblue;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.bar-end {
+    border-radius: 10%;
+    box-shadow: 10% 10% 10% #464646;
+}
+
+@media screen and (max-width: 900px) {
+    .img-logo {
+        background-size: cover;
+        align-items: left;
+        display: flex;
+        width: 15%;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        margin-left: 1%;
+    }
+
+    .nav-bar {
+        padding: 2.2rem 2.5rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: green;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        border: none;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+    .main {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .cabecarioh {
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    /*botoes*/
+    #btn-div, #btn-div2, #btn-div3, #btn-div4, #btn-div5 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    
+    .container, .container2, .container3, .container4, .container5 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/*suporte revenda*/
+.cabecarioh {
+    background-image: url(/assets/img/fundo-youtube.png);
+    width: 600px;
+    border-radius: 20px;
+   margin-top: 3%;
+    
+}
+.cabecario {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.514);
+    width: 100%;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7%;
+
+}
+.cabecario h1 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 15px #fff;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+.cabecario button {
+    font-family: monospace;
+    background-color: red;
+    box-shadow: 5px 5px 15px white;
+    color: #fff;
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 100%;
+    border-radius: 20px;
+}
+h2 {
+    margin-top: 5%;
+    font-family: -apple-system, ;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*botoes*/
+#btn-div, #btn-div2, #btn-div3, #btn-div4, #btn-div5 {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 600px;
+    height: 60px;
+    box-shadow: 8px 10px 10px rgba(0, 128, 0, 0.678);
+    transition: 0.7s;
+    font-size: 130%;
+    margin-top: 4%;
+    font-family: fantasy;
+text-align: start;
+    padding-left:4%;
+
+}
+
+
+.container, .container2, .container3, .container4, .container5 {
+    display: none;
+    font-size: 110%;
+    width: 600px;
+    padding-top: 30px;
+    background-color: green;
+    margin-top: -17px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 8px 10px 10px rgba(0, 128, 0, 0.678);
+}
+
+.container p, .container2 p, .container3 p, .container4 p, .container5 p  {
+    color: aliceblue;
+    margin: 4%;
+    text-align: start;
+}
+.button-you {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(0, 77, 0);
+    color: #fff;
+    font-family: fantasy;
+    margin-top: 3%;
+}
+.button-you img {
+    width: 30px;
+    border-radius: 100%;
+}
+.modalDialog {
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+dialog::backdrop {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-you-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    font-family: fantasy;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+
+}
+#vivo {
+    color: rgb(92, 7, 92);
+    margin-bottom: -5px;
+}
+
+#claro {
+    color: red;
+    margin-top: 0%;
+    margin-bottom: -5px;
+}
+
+#tim {
+    color: blue;
+    margin-top: 0%;
+}
