@@ -31,7 +31,6 @@ body {
 #logo {
     width: 45%;
     border: none;
-    border-radius: 100%;
     margin-bottom: -4%;
     transition: 4s;
 }
@@ -52,7 +51,6 @@ h3 {
 
 .button {
     display: flex;
-    flex-direction: column;
     margin-top: 20%;
 }
 
@@ -68,25 +66,49 @@ button {
 }
 
 .button img {
-    width: 40px;
+    width: 70px;
     border: none;
     border-radius: 13px;
 }
-
-.button button {
-    width: 600px;
-    height: 70px;
-    background-color: rgb(255, 136, 0);
+.button-wpp img {
+    width: 70px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    position: 15px;
+}
+.button-wpp  button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
     border: none;
     border-radius: 30px;
 }
-
+.button button {
+    cursor: pointer;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
 .button h2 {
+    color: aliceblue;
+    font-size: 170%;
+}
+.button-wpp h2 {
     color: aliceblue;
     font-size: 170%;
 }
 
 .button a {
+    text-decoration: none;
+}
+.button-wpp a {
     text-decoration: none;
 }
 
@@ -96,15 +118,6 @@ button {
         padding-right: 1%;
     }
 
-    .box {
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 25%;
-        padding-bottom: 8%;
-    }
-
     .container h1 {
         font-size: 250%;
     }
@@ -112,8 +125,5 @@ button {
     .container h2 {
         font-size: 120%;
     }
-
-    .button button {
-        width: 300px;
-    }
+   
 }
