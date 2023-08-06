@@ -46,6 +46,9 @@ body {
     font-size: 150%;
     color: rgb(255, 136, 0);
 }
+h3 {
+    color: aliceblue;
+}
 
 .button {
     display: flex;
