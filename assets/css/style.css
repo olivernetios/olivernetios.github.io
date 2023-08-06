@@ -20,6 +20,7 @@ body {
 
 
 .button-whatsapp {
+    cursor: pointer;
     position: fixed;
     opacity: .9;
     bottom: 15px;
@@ -167,12 +168,12 @@ footer {
     height: 120px;
 }
 footer button {
+    cursor: pointer;
     border: none;
     background-color: transparent;
 }
 footer img {
     width: 40px;
-    border-radius: 100px;  
 }
 @media screen and (max-width: 900px) {
     .img-logo {

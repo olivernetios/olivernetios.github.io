@@ -132,6 +132,7 @@ h2 {
 }
 
 .aplicativos button {
+    cursor: pointer;
     width: 230px;
     height: 400px;
     left: 0;

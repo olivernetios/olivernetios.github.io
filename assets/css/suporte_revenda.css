@@ -25,6 +25,7 @@ body {
 }
 
 .button-whatsapp {
+    cursor: pointer;
     position: fixed;
     opacity: .9;
     bottom: 15px;
@@ -85,6 +86,7 @@ header {
 }
 
 .login-button button {
+    cursor: pointer;
     border: none;
     padding: 10px 15px;
     margin-top: 15%;
@@ -140,6 +142,7 @@ header {
     padding: 2%;
 }
 .cabecario button {
+    cursor: pointer;
     background-color: red;
     box-shadow: 5px 5px 15px white;
     color: #fff;
@@ -179,6 +182,7 @@ h2 {
 #btn-div3,
 #btn-div4,
 #btn-div5 {
+    cursor: pointer;
     background-color: green;
     color: #fff;
     border: none;
@@ -221,6 +225,8 @@ h2 {
 }
 
 .button-you {
+    cursor: pointer;
+    text-decoration: none;
     width: 150px;
     height: 50px;
     display: flex;
@@ -237,7 +243,9 @@ h2 {
     width: 30px;
     border-radius: 100%;
 }
-
+.button-you a {
+    text-decoration: none;
+}
 #vivo {
     color: rgb(92, 7, 92);
     margin-bottom: -5px;
