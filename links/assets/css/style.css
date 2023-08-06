@@ -1,4 +1,5 @@
 body {
+    background-image: url(/links/assets/img/Fundos-link.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +19,7 @@ body {
     height: 100%;
     border-radius: 30px;
     padding-top: 10%;
-
+    padding-bottom: 10%;
 }
 
 .container {
@@ -29,29 +30,33 @@ body {
 }
 
 #logo {
-    width: 45%;
+    width: 70%;
     border: none;
     margin-bottom: -4%;
     transition: 4s;
 }
-
+#log {
+    display: none;
+}
 .container h1 {
     font-size: 300%;
     color: aliceblue;
     margin-bottom: -2%;
+    margin-top: -10%;
 }
 
 .container h2 {
     font-size: 150%;
     color: rgb(255, 136, 0);
 }
+
 h3 {
     color: aliceblue;
 }
 
 .button {
     display: flex;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 button {
@@ -70,18 +75,22 @@ button {
     border: none;
     border-radius: 13px;
 }
+
 .button-wpp img {
     width: 70px;
     border: none;
     background-color: transparent;
     display: flex;
     position: 15px;
+    padding-left: 10%;
 }
-.button-wpp  button {
+
+.button-wpp button {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 13%;
     padding-right: 30px;
     width: 200px;
     height: 40px;
@@ -89,17 +98,20 @@ button {
     border: none;
     border-radius: 30px;
 }
+
 .button button {
     cursor: pointer;
     display: flex;
     border: none;
     background-color: transparent;
-    margin-left: 20px;
+    margin-inline: 25px;
 }
+
 .button h2 {
     color: aliceblue;
     font-size: 170%;
 }
+
 .button-wpp h2 {
     color: aliceblue;
     font-size: 170%;
@@ -108,22 +120,57 @@ button {
 .button a {
     text-decoration: none;
 }
+
 .button-wpp a {
     text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {
     body {
-        padding-left: 1%;
-        padding-right: 1%;
+        background-color: black;
+        background-image: none;
     }
 
+    .box {
+        background-color: transparent;
+        width: 85%;
+    }
+
+    #logo {
+        display: none;
+    }
+    #log {
+        display: flex;
+        width: 85%;
+    }
     .container h1 {
-        font-size: 250%;
+        display: none;
     }
 
-    .container h2 {
-        font-size: 120%;
+    #h2 {
+        font-size: 100%;
+        margin-top: -15%;
     }
    
+    .button img {
+        width: 41px;
+    }
+    
+    .button-wpp img {
+        width: 40%;
+margin-left: 15%;
+    }
+    
+    .button-wpp a button h2 {
+        font-size: 150%;
+        color: black;
+        margin-left: 20%;
+    }
+    
+    .button-wpp a button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aliceblue;
+    }
 }
