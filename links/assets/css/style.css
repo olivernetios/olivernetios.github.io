@@ -129,11 +129,13 @@ button {
 
 @media screen and (max-width: 900px) {
     body {
+        padding: 0%;
         background-color: black;
         background-image: none;
     }
 
     .box {
+        margin: 0%;
         background-color: transparent;
         width: 85%;
     }
@@ -144,7 +146,7 @@ button {
 
     #log {
         display: flex;
-        width: 85%;
+        width: 75%;
     }
 
     .container h1 {
@@ -152,12 +154,12 @@ button {
     }
 
     #h2 {
-        font-size: 100%;
-        margin-top: -15%;
+        font-size: 80%;
+        margin-top: -10%;
     }
 
     .button img {
-        width: 45px;
+        width: 35px;
     }
 
     .button-wpp img {
@@ -165,9 +167,9 @@ button {
     }
 
     .button-wpp h2 {
-        font-size: 150%;
+        font-size: 120%;
         color: black;
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
     .button-wpp button {
@@ -175,8 +177,10 @@ button {
         justify-content: space-between;
         align-items: center;
         background-color: aliceblue;
+        width: 170px;
+        height: 30px;
     }
     .button button {
-        margin-inline: 13px;
+        margin-inline: 10px;
     }
 }
