@@ -35,9 +35,11 @@ body {
     margin-bottom: -4%;
     transition: 4s;
 }
+
 #log {
     display: none;
 }
+
 .container h1 {
     font-size: 300%;
     color: aliceblue;
@@ -139,10 +141,12 @@ button {
     #logo {
         display: none;
     }
+
     #log {
         display: flex;
         width: 85%;
     }
+
     .container h1 {
         display: none;
     }
@@ -151,26 +155,28 @@ button {
         font-size: 100%;
         margin-top: -15%;
     }
-   
+
     .button img {
-        width: 41px;
+        width: 45px;
     }
-    
+
     .button-wpp img {
         width: 40%;
-margin-left: 15%;
     }
-    
-    .button-wpp a button h2 {
+
+    .button-wpp h2 {
         font-size: 150%;
         color: black;
         margin-left: 20%;
     }
-    
-    .button-wpp a button {
+
+    .button-wpp button {
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: aliceblue;
+    }
+    .button button {
+        margin-inline: 13px;
     }
 }
