@@ -1,0 +1,102 @@
+
+/* body */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main h1,
+h2 {
+    font-size: 800%;
+    margin-bottom: 10px;
+    margin-top: 20%;
+}
+
+.aplicativos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.aplicativos button {
+    cursor: pointer;
+    width: 230px;
+    height: 464px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    border: none;
+    box-shadow: 10px 10px 15px #464646;
+
+
+}
+.app-box {
+    margin-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-box h1{
+    background-color: rgba(190, 0, 0, 0.877);
+    color: #fff;
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 120%;
+    text-align: center;
+}
+
+button{
+    border-radius: 20px;
+    background-color: orange;
+}
+@media screen and (max-width: 900px) {
+    
+    /* body */
+    .main {
+        padding: 5%;
+    }
+
+    main h1,
+    h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 10px;
+        margin-top: 20%;
+    }
+
+    .aplicativos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .aplicativos button {
+        border-radius: 30px;
+        margin-top: 10%;
+    }
+
+    .app-box h1{
+        font-size: 120%;
+    }
+
+}

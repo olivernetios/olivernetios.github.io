@@ -3,62 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/suporte_revenda.css">
-    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css"> <!--Carrega o css principal-->
+    <link rel="stylesheet" href="/assets/css/main/suporte.css"> <!--css base da pagina-->
+    <link rel="shortcut icon" href="/assets/icons/Logo.png" type="image/x-icon"> <!-- Icone do site -->
     <title>Suporte</title>
 </head>
 
 <body>
-    <style type="text/css">
+    <style>
         body {
-            background-image: url(/assets/img/fundo.png);
+            background-image: url(/assets/icons/fundo.png);
         }
     </style>
 </body>
 <header>
     <nav class="nav-bar">
         <div class="logo">
-            <img src="/assets/img/logo.png" alt="">
             <h1>OliverNet</h1>
         </div>
         <div class="nav-list">
             <ul>
-                <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="/page-second/aplicativos.html" class="nav-link">Aplicativos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+                <li class="nav-item"><a href="/templates/main/index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="/templates/main/aplicativos.html" class="nav-link">Aplicativos</a></li>
+                <li class="nav-item"><a href="/templates/main/suporte.html" class="nav-link">Suporte</a></li>
             </ul>
         </div>
         <div class="login-button">
-            <button><a
-                    href="https://wa.me/message/LFQ65RMEMPTSM1">WhatsApp</a></button>
+            <button><a href="https://wa.me/message/LFQ65RMEMPTSM1">WhatsApp</a></button>
         </div>
 
         <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="/assets/img/menu_white_36dp.svg" alt=""></button>
+            <button onclick="menuShow()"><img class="icon" src="/assets/icons/menu_white_36dp.svg" alt=""></button>
         </div>
     </nav>
     <div class="mobile-menu">
         <ul>
-            <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
-            <li class="nav-item"><a href="/page-second/aplicativos.html" class="nav-link">Aplicativos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+            <li class="nav-item"><a href="/templates/main/index.html" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="/templates/main/aplicativos.html" class="nav-link">Aplicativos</a></li>
+            <li class="nav-item"><a href="/templates/main/suporte.html" class="nav-link">Suporte</a></li>
         </ul>
 
         <div class="login-button">
-            <button><a
-                    href="https://wa.me/message/LFQ65RMEMPTSM1">Contato</a></button>
+            <button><a href="https://wa.me/message/LFQ65RMEMPTSM1">Contato</a></button>
         </div>
     </div>
 </header>
 <main>
+    <!------------------------------------- Inicio da main ------------------------------------->
     <div class="box">
         <div class="cabecarioh">
             <div class="cabecario">
                 <h1>Aprenda com os Tutoriais em Nosso <br> Canal do YouTube</h1>
                 <br>
-                <a id="link-you" href="http://www.youtube.com/@Olivernet"><button><img width="14%" src="/assets/img/icon-play.png"> Acesse os Tutoriais</button></a>
+                <a id="link-you" href="http://www.youtube.com/@Olivernet"><button><img width="14%"
+                            src="/assets/icons/icon-play.png"> Acesse os Tutoriais</button></a>
             </div>
         </div>
     </div>
@@ -84,7 +83,8 @@
                 Com esses passos, sua configuração de VPN deve estar completa e funcionar normalmente em seu celular.
                 Não se esqueça de salvar as alterações para garantir que elas tenham efeito. <br>
                 <a href="https://youtube.com/shorts/t3Iv85uDCOw?feature=share"><button class="button-you"
-                        onclick="window.modalDialog.showModal();"><img src="/assets/img/icon-play.png" alt="">Assista o
+                        onclick="window.modalDialog.showModal();"><img src="/assets/icons/icon-play.png" alt="">Assista
+                        o
                         Video</button></a>
             </p>
         </div>
@@ -103,7 +103,8 @@
                 mesmo assim não der conexão, clique em restaurar e tente novamente e reinicie seu celular! <br>
 
                 <a href="https://youtube.com/shorts/XqaPyap0_wo?feature=share"><button class="button-you"
-                        onclick="window.modalDialog.showModal();"><img src="/assets/img/icon-play.png" alt="">Assista o
+                        onclick="window.modalDialog.showModal();"><img src="/assets/icons/icon-play.png" alt="">Assista
+                        o
                         Video</button></a>
             </p>
         </div>
@@ -155,7 +156,7 @@
                 Para verificar os créditos expirados na TIM, siga os seguintes passos: <br>
                 <br>
                 1. Vá até o ícone de telefone (onde faz ligações) no seu celular. <br>
-                2. Digite *222# e pressione a tecla de chamada. <br>
+                2. Digite *222/templates/main/suporte.html e pressione a tecla de chamada. <br>
                 3. Se aparecer uma mensagem informando que os créditos estão expirados, será necessário fazer uma
                 recarga para voltar a ter validade. <br>
                 4. Para fazer a recarga, basta acessar alguma das opções de recarga disponíveis, como a recarga
@@ -174,10 +175,10 @@
 <div>
     <a href="https://wa.me/message/LFQ65RMEMPTSM1">
         <button class="button-whatsapp">
-            <img width="100%" class="icon-whatsapp" src="/assets/img/icon-whatapp.png" alt="">
+            <img width="100%" class="icon-whatsapp" src="/assets/icons/icon-whatapp.png" alt="">
         </button></a>
 </div>
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/containerpg2.js"></script>
+<script src="/assets/script/script.js"></script>
+<script src="/assets/script/containerpg2.js"></script>
 
 </html>
