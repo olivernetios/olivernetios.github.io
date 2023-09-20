@@ -27,19 +27,18 @@ h2 {
 
 .aplicativos button {
     cursor: pointer;
-    width: 230px;
-    height: 464px;
+    width: 235px;
+    height: 417px;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     background-size: cover;
-    border-radius: 50px;
     background-repeat: no-repeat;
     display: flex;
     border: none;
-    box-shadow: 10px 10px 15px #464646;
-
+    box-shadow: 10px 10px 15px 464646;
+    background-color: transparent;
 
 }
 .app-box {
@@ -63,10 +62,6 @@ h2 {
     text-align: center;
 }
 
-button{
-    border-radius: 20px;
-    background-color: orange;
-}
 @media screen and (max-width: 900px) {
     
     /* body */
